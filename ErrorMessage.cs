@@ -100,7 +100,7 @@ namespace WebSiteAdvantage.KeePass.Firefox
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("http://seo-website-designer.com/Firefox-KeePass-Password-Import#heading-trouble");
+            Process.Start("https://websiteadvantage.com.au/Firefox-KeePass-Password-Import#heading-trouble");
         }
     }
 }

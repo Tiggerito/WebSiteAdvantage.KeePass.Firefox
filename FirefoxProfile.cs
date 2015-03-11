@@ -104,7 +104,7 @@ namespace WebSiteAdvantage.KeePass.Firefox
             {
                 Int32 error = NSPR4.PR_GetError();
                 string errorName = NSPR4.PR_ErrorToName(error);
-                throw new Exception("Failed to initialise profile for login at " + this.ProfilePath + " reason " + errorName);
+                throw new Exception("Failed to initialise profile for login at " + this.ProfilePath + " reason (" + error.ToString() + ") " + errorName);
             }
 
             
@@ -115,7 +115,7 @@ namespace WebSiteAdvantage.KeePass.Firefox
             {
                 Int32 error = NSPR4.PR_GetError();
                 string errorName = NSPR4.PR_ErrorToName(error);
-                throw new Exception("Failed to Validate Password: " + errorName);
+                throw new Exception("Failed to Validate Password: (" + error.ToString() + ") " + errorName);
             }
 		}
 

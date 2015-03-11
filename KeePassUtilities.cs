@@ -28,7 +28,7 @@ namespace WebSiteAdvantage.KeePass.Firefox
 	/// </summary>
 	public class KeePassUtilities
 	{
-        public static string Version = "2.22"; // [assembly: AssemblyFileVersion("2.21.0.0")]
+        public static string Version = "2.28"; // [assembly: AssemblyFileVersion("2.21.0.0")]
 
 		public static int AutoTypeTextSize = 15; // arbitrary size limit. titles change and its better you get multiple options by default than none
 
