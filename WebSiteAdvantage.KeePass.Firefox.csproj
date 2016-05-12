@@ -203,7 +203,6 @@
     <Content Include="WebSiteAdvantageKeePassFirefox-Gecko\NSS64\xpcom.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="History.txt" />
     <Content Include="KeePass.ico" />
     <Content Include="WebSiteAdvantageKeePassFirefox-lgpl.txt" />
     <Content Include="WebSiteAdvantageKeePassFirefox-SQLite\4x32\msvcr100.dll">

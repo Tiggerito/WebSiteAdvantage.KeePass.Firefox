@@ -67,7 +67,7 @@ namespace WebSiteAdvantage.KeePass.Firefox
             }
             catch (Exception ex)
             {
-                throw new Exception("Failed to Init Profile: " + ex.Message, ex);
+                throw new Exception("Failed to Init Profile (" + Profile.ProfilePath + "): " + ex.Message, ex);
             }
 
 
@@ -289,7 +289,7 @@ namespace WebSiteAdvantage.KeePass.Firefox
                             Version = version;
 
                             if (version == 0)
-                                throw new Exception("Could not find a signon file to process");
+                                throw new Exception("Could not find a signon file to process in " + Profile.ProfilePath);
 
                             StreamReader reader = File.OpenText(signonFile);
 
