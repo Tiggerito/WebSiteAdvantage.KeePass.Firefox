@@ -16,8 +16,8 @@ This Firefox to KeePass Importer is written and compiled in .Net 4.0 and therefo
 
 ## How do I use it?
 ### INSTALLATION
-1. Download the latest version from GitHub
-1. Un-zip and place the contained files and folders into the KeePass Program Folder e.g. at C:\Program Files (x86)\KeePass Password Safe 2 .
+1. Download the latest version from the [Releases](https://github.com/Tiggerito/WebSiteAdvantage.KeePass.Firefox.Importer/tree/master/Releases/) folder.
+1. Un-zip and place the contained files and folders into the KeePass Program Folder e.g. at C:\Program Files (x86)\KeePass Password Safe 2.
 #### XML Import plugin (for KeePass 1.x)
 If you're using KeePass 1.x then you will also need to install the [KeePass XML Import plugin](https://keepass.info/plugins.html#xmlimport). This is not needed for KeePass 2.x users:
 
@@ -103,3 +103,10 @@ The Password Exporter Extension has several issues with Firefox compatibility an
 Note 1: It seems that KeePass 2.0 now has a built in importer option called "Password Exporter XML" that can directly import these XML file without the need for this tool.
 
 Note 2: For other applications such as Thunderbird the process of installing and using the Exporter may vary. More information may be found on the Password Exporter website.
+
+## The Code
+The code for this tool is divided into 3 projects:
+
+* This project contains the core library used in...
+* [Firefox to KeePass Importer](https://github.com/Tiggerito/WebSiteAdvantage.KeePass.Firefox.Importer)
+* [Firefox to KeePass Password Converter](https://github.com/Tiggerito/WebSiteAdvantage.KeePass.Firefox.Converter)
