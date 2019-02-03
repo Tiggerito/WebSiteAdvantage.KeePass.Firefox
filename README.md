@@ -4,6 +4,8 @@
 
 This tool supports more browsers and is supperted: https://github.com/JanisEst/KeePassBrowserImporter
 
+This tool may also be of help: https://github.com/kspearrin/ff-password-exporter
+
 ## What is the Firefox to KeePass Importer?
 It's a free way to import passwords exported from a Firefox Web Browser into KeePass . It should also work with Thunderbird , Flock and Songbird !
 
